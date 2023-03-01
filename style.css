@@ -30,6 +30,15 @@
     --persianBlue:hsla(241, 72%, 46%, 0);
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cobaltBlueOp);
+}
+
 /* RESULTS SECTION */
 
 .result__section {
@@ -206,4 +215,22 @@ span.breakdown {
     font-weight: 500;
     line-height: 21px;
     text-align: center;
+}
+
+@media screen and (min-width: 376px) {
+    main {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .result__section {
+        border-radius: 20px;
+    }
+
+        .breakdown__section {
+            margin-top: 0;
+        }
 }
