@@ -1,0 +1,89 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.results__section h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.score {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+.out__of {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    
+}
+
+.score__explained h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.score__explained p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    
+}
+
+.breakdown__section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.reaction {
+  background-image: url(assets/images/icon-reaction.svg);
+}
+
+.memory {
+    background-image: url(assets/images/icon-memory.svg);
+}
+
+.verbal {
+    background-image: url(assets/images/icon-verbal.svg);
+}
+
+.visual {
+    background-image: url(assets/images/icon-visual.svg);
+}
+
+h4.type {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+span.breakdown {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.breakdown__section button {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 17px 120px;
+    border-radius: 30px;
+    border: none;
+}
