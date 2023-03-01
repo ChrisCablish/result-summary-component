@@ -1,13 +1,55 @@
 * {
     font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.results__section h1 {
+:root {
+    /* PRIMARY */
+
+    --lightRed: hsl(0, 100%, 67%);
+    --orangeyYellow: hsl(39, 100%, 56%);
+    --greenTeal: hsl(166, 100%, 37%);
+    --cobaltBlue: hsl(234, 85%, 45%);
+
+    /* GRADIENTS */
+
+    - Light slate blue (background): hsl(252, 100%, 67%)
+    - Light royal blue (background): hsl(241, 81%, 54%)
+
+    - Violet blue (circle): hsla(256, 72%, 46%, 1)
+    - Persian blue (circle): hsla(241, 72%, 46%, 0)
+}
+
+/* RESULTS SECTION */
+
+.result__section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.result__section h1 {
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0px;
     text-align: center;
+    margin-top: 24px;
+}
+
+.score__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 .score {
@@ -20,20 +62,30 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
-    
 }
 
 .score__explained h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 31px;
+    margin-bottom: 8px;
 }
 
 .score__explained p {
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
+    margin-bottom: 40px;
+    padding: 0 58px;
     
+}
+
+/* BREAKDOWN SECTION */
+
+.breakdown__section {
+    display: grid;
+    gap: 24px;
+    padding: 0 30px 30px 30px;
 }
 
 .breakdown__section h2 {
@@ -42,14 +94,27 @@
     line-height: 23px;
 }
 
-ul {
+.breakdown__section ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.breakdown__section li {
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
 }
 
 .icon {
     height: 20px;
     width: 20px;
 }
+
+/* ICONS */
 
 .reaction {
   background-image: url(assets/images/icon-reaction.svg);
@@ -65,6 +130,12 @@ ul {
 
 .visual {
     background-image: url(assets/images/icon-visual.svg);
+}
+
+.icon__and__type {
+    display: flex;
+    gap: 12px;
+    
 }
 
 h4.type {
@@ -86,4 +157,11 @@ span.breakdown {
     padding: 17px 120px;
     border-radius: 30px;
     border: none;
+}
+
+.attribution {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
 }
