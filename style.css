@@ -126,7 +126,7 @@ main {
 }
 
 .breakdown__section h2 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.4375rem;
     margin-top: 0;
@@ -224,7 +224,7 @@ span.breakdown {
     font-size: 0.8125rem;
     font-weight: 500;
     line-height: 1.3125rem;
-    text-align: center;
+    text-align: center;margin-top: 0.5rem;
 }
 
 /* TABLET */
