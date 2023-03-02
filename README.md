@@ -3,8 +3,8 @@
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).  
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/ChrisCablish/result-summary-component
+- Live Site URL: https://chriscablish.github.io/result-summary-component/
 
 Users should be able to:
 
